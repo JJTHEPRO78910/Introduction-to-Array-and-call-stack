@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <title> Introduction to Array and call stack </title>
+    </head>
+    <body>
+        <h1> Introduction to Array and call stack </h1>
+        <p id="h"> </p>
+        <p id="i"> </p>
+        <script> 
+            var movies=["The Grinch (U-Rated version)", "The Christmas Chronicals", "The Christmas Chronicals 2", "Hotel Transylvania", "The Bad Guys"]
+            document.getElementById("h").innerHTML=movies[2]
+            function add(a,b){
+                return a+b
+            }
+            function average(a,b){
+                return add(a,b)/2;
+            }
+            let answer=average(10,347)
+            document.getElementById("i").innerHTML=answer;    
+        </script>
+    </body>
+</html>
